@@ -1,0 +1,24 @@
+@import '../../../styles/global.scss';
+
+.confirmation {
+  &__item {
+    text-align: left;
+    @media #{$xs} {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__description {
+    @media #{$xs} {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__list {
+    margin: 1em 0 1.5em 0 !important;
+  }
+}
+
+.error {
+  display: block !important;
+}
